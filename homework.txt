@@ -1,0 +1,35 @@
+   0 nano screept.sh
+   1 chmod u+x sleeper.sh
+   2 chmod u+x screep.sh
+   3 chmod u+x screept.sh
+   4 ./screept.sh 
+   5 nano screept.sh
+   6 ./screept.sh 
+   7 ls -al
+   8 cpu_info.txt
+   9 cat cpu_info.txt 
+  10 nono screept.sh 
+  11 nano screept.sh 
+  12 history
+  13 history > history_homework
+  14 export_file history_homework.txt
+  15 export_file history_homework
+  16 ./sceept.sh
+  17 ./screept.sh
+  18 cat screept.sh
+
+#!/bin/bash
+for i in {1..10}
+do
+echo $(date +"%H:%M:%S") $(ps -ef | wc -l) >> output.txt
+#sleep .5
+done cat /proc/cpuinfo > cpu_info.txt
+ cat /etc/os-release | grep -o 'NAME=[^"]*' > os_info.txt
+cat /etc/os-release | grep -o 'NAME=[^"]*' | awk -F '=' '{print $2}' > os_info_c
+lean.txt
+ for i in {50..100}
+ do
+    touch "$i.txt"
+ done
+
+ 
